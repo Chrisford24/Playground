@@ -3,7 +3,7 @@ function tipCalculator(){
     let tip = Number(document.getElementById("tip").value);
     
     total = bill + (bill * (tip/100));
-    document.getElementById("amount").innerHTML = total;
+    document.getElementById("amount").innerHTML = `$${total}`;
     
 }
 
